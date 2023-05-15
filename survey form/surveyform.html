@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./surveyform.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="font1">Social media хэрэглэгчдийн судалгаа</h1>
+      <p class="font2">Судлгаанд оролцсон танд баярлалаа</p>
+    </header>
+    <form action="">
+      <section id="st1">
+        Ерөнхий мэдээлэл
+        <label for="name">Нэр</label>
+        <input type="name" name="name" id="name" required />
+        <label for="email">И-мэйл</label>
+        <input type="email" name="email" id="email" required />
+        <label for="age">Нас</label>
+        <input type="number" name="age" id="age" required />
+      </section>
+      <section>
+        Socail media Та өдөрт хэдэн цаг socail media ашгилдаг вэ?
+        <select name="time" id="time">
+          <option value="1-2">1-2 цаг</option>
+          <option value="3-4">3-4 цаг</option>
+          <option value="5-6">5-6 цаг</option>
+        </select>
+        Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт хийхийн
+        альныг илүүдд үздэг вэ
+        <input type="radio" name="os" id="os" value="os" />
+        <label for="os">Онлайн худалдан авалт</label>
+        <input type="radio" name="s" id="os" value="s" />
+        <label for="os">дэлгүүр орж худалдан авалт хийх</label>
+        Та ямар socail media platform ашгилдаг вэ?
+        <input type="checkbox" id="platform" name="Facebook" value="Facebook" />
+        <label for="platform">Facebook</label>
+        <input
+          type="checkbox"
+          id="platform"
+          name="Instagram"
+          value="Instagram"
+        />
+        <label for="platform">Instagram</label>
+        <input type="checkbox" id="platform" name="Twitter" value="Twitter" />
+        <label for="platform">Twitter</label>
+        <input type="checkbox" id="platform" name="Reddit" value="Reddit" />
+        <label for="platform">Reddit</label>
+        <input type="checkbox" id="platform" name="Snapchat" value="Snapchat" />
+        <label for="platform">Snapchat</label>
+        <input type="checkbox" id="platform" name="Quora" value="Quora" />
+        <label for="platform">Quora</label>
+        <input type="checkbox" id="platform" name="Youtube" value="Youtube" />
+        <label for="platform">Youtube</label>
+        <input type="checkbox" id="platform" name="Бусад" value="Бусад" />
+        <label for="platform">Бусад</label>
+      </section>
+      <section>
+        Санал хүсэлт
+        <textarea
+          name="commet"
+          id="commet"
+          cols="30"
+          rows="10"
+          placeholder="Санал хүсэлтээ энд бичнэ үү..."
+        ></textarea>
+      </section>
+      <button type="submit">Илгээх</button>
+      <button type="reset">Дахин эхлэх</button>
+    </form>
+  </body>
+</html>
