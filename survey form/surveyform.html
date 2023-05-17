@@ -8,68 +8,121 @@
     <link rel="stylesheet" href="./surveyform.css" />
   </head>
   <body>
-    <header>
-      <h1 class="font1">Social media хэрэглэгчдийн судалгаа</h1>
-      <p class="font2">Судлгаанд оролцсон танд баярлалаа</p>
-    </header>
-    <form action="">
-      <section id="st1">
-        Ерөнхий мэдээлэл
-        <label for="name">Нэр</label>
-        <input type="name" name="name" id="name" required />
-        <label for="email">И-мэйл</label>
-        <input type="email" name="email" id="email" required />
-        <label for="age">Нас</label>
-        <input type="number" name="age" id="age" required />
-      </section>
-      <section>
-        Socail media Та өдөрт хэдэн цаг socail media ашгилдаг вэ?
-        <select name="time" id="time">
-          <option value="1-2">1-2 цаг</option>
-          <option value="3-4">3-4 цаг</option>
-          <option value="5-6">5-6 цаг</option>
-        </select>
-        Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт хийхийн
-        альныг илүүдд үздэг вэ
-        <input type="radio" name="os" id="os" value="os" />
-        <label for="os">Онлайн худалдан авалт</label>
-        <input type="radio" name="s" id="os" value="s" />
-        <label for="os">дэлгүүр орж худалдан авалт хийх</label>
-        Та ямар socail media platform ашгилдаг вэ?
-        <input type="checkbox" id="platform" name="Facebook" value="Facebook" />
-        <label for="platform">Facebook</label>
-        <input
-          type="checkbox"
-          id="platform"
-          name="Instagram"
-          value="Instagram"
-        />
-        <label for="platform">Instagram</label>
-        <input type="checkbox" id="platform" name="Twitter" value="Twitter" />
-        <label for="platform">Twitter</label>
-        <input type="checkbox" id="platform" name="Reddit" value="Reddit" />
-        <label for="platform">Reddit</label>
-        <input type="checkbox" id="platform" name="Snapchat" value="Snapchat" />
-        <label for="platform">Snapchat</label>
-        <input type="checkbox" id="platform" name="Quora" value="Quora" />
-        <label for="platform">Quora</label>
-        <input type="checkbox" id="platform" name="Youtube" value="Youtube" />
-        <label for="platform">Youtube</label>
-        <input type="checkbox" id="platform" name="Бусад" value="Бусад" />
-        <label for="platform">Бусад</label>
-      </section>
-      <section>
-        Санал хүсэлт
-        <textarea
-          name="commet"
-          id="commet"
-          cols="30"
-          rows="10"
-          placeholder="Санал хүсэлтээ энд бичнэ үү..."
-        ></textarea>
-      </section>
-      <button type="submit">Илгээх</button>
-      <button type="reset">Дахин эхлэх</button>
-    </form>
+    <div id="dt1">
+      <header>
+        <h1 class="font1">Social media хэрэглэгчдийн судалгаа</h1>
+        <p class="font2">Судлгаанд оролцсон танд баярлалаа</p>
+      </header>
+      <form action="">
+        <div id="dt2">
+          <section id="st1">
+            <h1 class="font2 pos1">Ерөнхий мэдээлэл</h1>
+            <label for="name" class="font2">Нэр</label>
+            <input
+              type="name"
+              `
+              name="name"
+              id="name"
+              required
+              class="font3 boxc1"
+            />
+            />
+            <label for="email" class="font2">И-мэйл</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="font3 boxc1"
+            />
+            <label for="age" class="font2">Нас</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              required
+              class="font3 boxc1"
+            />
+          </section>
+          <section>
+            <h1 class="font2">
+              Socail media Та өдөрт хэдэн цаг socail media ашгилдаг вэ?
+            </h1>
+            <select name="time" id="time" class="font3">
+              <option value="1-2">1-2 цаг</option>
+              <option value="3-4">3-4 цаг</option>
+              <option value="5-6">5-6 цаг</option>
+            </select>
+
+            <h1 class="font2">
+              Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт
+              хийхийн альныг илүүдд үздэг вэ
+            </h1>
+            <input type="radio" name="os" id="os" value="os" />
+            <label for="os" class="font2">Онлайн худалдан авалт</label>
+            <input type="radio" name="s" id="os" value="s" />
+            <label for="os" class="font2"
+              >дэлгүүр орж худалдан авалт хийх</label
+            >
+            <h1 class="font2">Та ямар socail media platform ашгилдаг вэ?</h1>
+
+            <input
+              type="checkbox"
+              id="platform"
+              name="Facebook"
+              value="Facebook"
+            />
+            <label for="platform">Facebook</label>
+            <input
+              type="checkbox"
+              id="platform"
+              name="Instagram"
+              value="Instagram"
+            />
+            <label for="platform" class="font2">Instagram</label>
+            <input
+              type="checkbox"
+              id="platform"
+              name="Twitter"
+              value="Twitter"
+            />
+            <label for="platform" class="font2">Twitter</label>
+            <input type="checkbox" id="platform" name="Reddit" value="Reddit" />
+            <label for="platform" class="font2">Reddit</label>
+            <input
+              type="checkbox"
+              id="platform"
+              name="Snapchat"
+              value="Snapchat"
+            />
+            <label for="platform" class="font2">Snapchat</label>
+            <input type="checkbox" id="platform" name="Quora" value="Quora" />
+            <label for="platform" class="font2">Quora</label>
+            <input
+              type="checkbox"
+              id="platform"
+              name="Youtube"
+              value="Youtube"
+            />
+            <label for="platform" class="font2">Youtube</label>
+            <input type="checkbox" id="platform" name="Бусад" value="Бусад" />
+            <label for="platform" class="font2">Бусад</label>
+          </section>
+          <section>
+            Санал хүсэлт
+            <textarea
+              name="commet"
+              id="commet"
+              cols="30"
+              rows="10"
+              placeholder="Санал хүсэлтээ энд бичнэ үү..."
+              class="font3"
+            ></textarea>
+          </section>
+          <button type="submit">Илгээх</button>
+          <button type="reset">Дахин эхлэх</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
