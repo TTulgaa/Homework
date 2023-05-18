@@ -59,7 +59,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 10px;
+  line-height: 25px;
   color: black;
 }
 #fielt1 {
@@ -93,4 +93,30 @@ header {
 }
 .cb1 {
   border: 1px solid rgb(71, 219, 71);
+}
+#st5 {
+  width: 628px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.boxc2 {
+  width: 606px;
+  height: 240px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  outline: none;
+}
+.boxc3 {
+  width: 628px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  outline: none;
 }
