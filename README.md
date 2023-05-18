@@ -4,3 +4,5 @@ https://ttulgaa.github.io/Homework
 https://ttulgaa.github.io/Homework/side/sidebar.html
 <br/>
 https://ttulgaa.github.io/Homework/search/search.html
+<br/>
+https://ttulgaa.github.io/Homework/survey%20form/surveyform.html
