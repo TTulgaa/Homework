@@ -1,0 +1,81 @@
+#st1 {
+  width: 600px;
+  height: 500px;
+  border: 1px solid rgb(177, 177, 177);
+  box-shadow: 5px 5px 8px rgb(177, 177, 177);
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timing-function: initial; */
+}
+#dt1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  z-index: 3;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timing-function: initial;
+}
+#dt2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 200px;
+  right: 250px;
+  z-index: 2;
+  transition: bottom 1s linear 0s, RIGHT 1s linear 1s;
+}
+#dt3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  right: 250px;
+  top: 200px;
+  z-index: 1;
+  transition: top 2s linear 0s, right 1.5s linear 0.5s,
+    border-radius 1s linear 1.5s;
+}
+
+#st1:hover {
+  #dt1 {
+    top: 0px;
+    left: 0px;
+  }
+  #dt2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  #dt3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0;
+  }
+}
