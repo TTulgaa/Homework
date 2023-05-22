@@ -36,7 +36,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  .dc1 {
-    height: 200px;
-  }
+}
+.dc1:has(> .dc2:hover) {
+  height: 150px;
 }
