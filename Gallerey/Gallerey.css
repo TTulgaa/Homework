@@ -6,16 +6,69 @@ body {
   background-size: 100% 80dvh;
   padding-top: 90dvh;
 }
-img {
-  width: 40dvh;
-  height: 40dvh;
-}
 #dt1 {
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
 }
-@madia only screen and (min-width:650px) {
+@media only screen and (min-width: 768px) {
   img {
-    width: 300px;
-    height: 300px;
+    width: 45%;
+    height: 50svh;
+    transition: all 1s initial 0s;
+    margin-top: 10px;
+    margin-right: 5%;
+  }
+  img:hover {
+    scale: 1.1;
+    border-radius: 4px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  img {
+    width: 30%;
+    height: 50svh;
+    transition: all 1s initial 0s;
+    margin-top: 10px;
+    margin-right: 3%;
+  }
+  img:hover {
+    scale: 1.1;
+    border-radius: 4px;
+  }
+  /* img:hover {
+    width: 80%;
+    height: 80%;
+    background-color: gray;
+    opacity: 0.5;
+  } */
+}
+@media only screen and (min-width: 1200px) {
+  img {
+    width: 22%;
+    height: 50svh;
+    transition: all 1s initial 0s;
+    margin-top: 10px;
+    margin-right: 3%;
+  }
+  img:hover {
+    scale: 1.1;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 80%;
+    height: 50svh;
+    transition: all 1s initial 0s;
+    margin-top: 10px;
+    margin: 0 auto;
+  }
+  img:hover {
+    scale: 1.1;
+    border-radius: 4px;
   }
 }
