@@ -16,3 +16,5 @@ https://ttulgaa.github.io/Homework/list/list.html
 https://ttulgaa.github.io/Homework/Gallerey/Gallerey.html
 <br/>
 https://ttulgaa.github.io/Homework/new%20list/newlist.html
+<br/>
+https://ttulgaa.github.io/Homework/Upgrade/Upgrade.html
