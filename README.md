@@ -20,3 +20,5 @@ https://ttulgaa.github.io/Homework/new%20list/newlist.html
 https://ttulgaa.github.io/Homework/Upgrade/Upgrade.html
 <br/>
 https://ttulgaa.github.io/Homework/res-card/res-card.html
+<br/>
+https://ttulgaa.github.io/Homework/bpoints/bpoints.html
