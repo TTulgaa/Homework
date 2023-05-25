@@ -25,6 +25,7 @@ nav {
   color: white;
   background-color: blue;
   position: relative;
+  z-index: 0;
 }
 @media only screen and (min-width: 0px) {
   .dc1 {
@@ -54,31 +55,40 @@ nav {
   .dt3 {
     width: 30px;
     height: 30px;
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0px;
     z-index: 0;
+    background-color: blue;
   }
   #dt2:hover {
     display: none;
   }
   #dt2:hover + .dt3 {
-    width: 100px;
+    width: 30px;
     height: 30px;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
     align-items: center;
-    font-size: 10px;
+    font-size: 0px;
     z-index: 2;
+    background-blend-mode: normal;
+    background-color: blue;
+    border-radius: 10px;
   }
   .dt3:hover {
     width: 100px;
     height: 30px;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
     align-items: center;
     font-size: 10px;
     z-index: 2;
+    background-color: rgb(24, 24, 209);
+    border-radius: 10px;
+    transition: width 0.5s linear 0s, font-size 0.5s linear 0.5s,
+      background-color 0.5s linear 0s;
   }
 }
 @media only screen and (min-width: 600px) {
