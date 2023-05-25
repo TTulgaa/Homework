@@ -11,6 +11,31 @@ body {
   margin: 0 auto;
   margin-top: 20px;
 }
+@media only screen and (min-width: 0px) {
+  .img1 {
+    width: 90%;
+    height: 30vw;
+    margin-top: 15px;
+    border-radius: 3vw;
+  }
+  .img2 {
+    width: 30%;
+    height: 15vw;
+    border-radius: 3vw;
+  }
+  .pc1 {
+    width: 50%;
+    height: 15vw;
+    font-size: 2vw;
+  }
+  .dc2 {
+    background-color: rgb(204, 202, 202);
+    border-radius: 3vw;
+    width: 86%;
+    font-size: 2vw;
+    padding: 0 2vw 0 2vw;
+  }
+}
 @media only screen and (min-width: 340px) {
   .img1 {
     width: 90%;
