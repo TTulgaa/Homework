@@ -14,3 +14,5 @@ https://ttulgaa.github.io/Homework/move%20shapes/move.html
 https://ttulgaa.github.io/Homework/list/list.html
 <br/>
 https://ttulgaa.github.io/Homework/Gallerey/Gallerey.html
+<br/>
+https://ttulgaa.github.io/Homework/new%20list/newlist.html
