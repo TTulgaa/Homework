@@ -12,3 +12,13 @@ https://ttulgaa.github.io/Homework/badge/badge.html
 https://ttulgaa.github.io/Homework/move%20shapes/move.html
 <br/>
 https://ttulgaa.github.io/Homework/list/list.html
+<br/>
+https://ttulgaa.github.io/Homework/Gallerey/Gallerey.html
+<br/>
+https://ttulgaa.github.io/Homework/new%20list/newlist.html
+<br/>
+https://ttulgaa.github.io/Homework/Upgrade/Upgrade.html
+<br/>
+https://ttulgaa.github.io/Homework/res-card/res-card.html
+<br/>
+https://ttulgaa.github.io/Homework/bpoints/bpoints.html
