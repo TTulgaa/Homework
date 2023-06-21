@@ -26,3 +26,9 @@ https://ttulgaa.github.io/Homework/bpoints/bpoints.html
 https://ttulgaa.github.io/Homework/BST/BTS/grid-card/grid-card.html
 <br/>
 https://ttulgaa.github.io/Homework/BST/BTS/Form/form1.html
+<br/>
+https://ttulgaa.github.io/Homework/TIp/Tip.html
+<br/>
+https://ttulgaa.github.io/Homework/sdvn/sdvn.html
+<br/>
+https://ttulgaa.github.io/Homework/temtseen/temtseen.html
