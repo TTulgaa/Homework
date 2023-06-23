@@ -32,3 +32,5 @@ https://ttulgaa.github.io/Homework/TIp/Tip.html
 https://ttulgaa.github.io/Homework/sdvn/sdvn.html
 <br/>
 https://ttulgaa.github.io/Homework/temtseen/temtseen.html
+<br/>
+https://ttulgaa.github.io/Homework/jav/huvisagch/x.html
